@@ -1,0 +1,56 @@
+.bg-desktop {
+  background-image: url("/images/bg_desktop.svg");
+  background-color: #004db3;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.bg-community {
+  background-image: url("/images/bg_community.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.bg-subhero {
+  background-image: url("/images/bg_subhero.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.bg-about {
+  background-image: url("/images/bg_about.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.bg-course {
+  background-image: url("/images/bg_course.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.bg-question {
+  background-image: url("/images/bg_question.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+@media only screen and (max-width: 821px) {
+  .bg-desktop {
+    background-image: url("/images/bg_mobile.svg");
+    background-color: #004db3;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .bg-subhero {
+    background-image: url("/images/bg_subhero_mobile.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .bg-about {
+    background-position: bottom;
+  }
+}
