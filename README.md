@@ -44,12 +44,20 @@ yarn install
 yarn dev
 ```
 
-<!-- ## Instructions
+4. Dockerise the App
 
-1. Upon cloning, always create a new branch with the feature/bug name.
-2. Create an issue and assign to yourself
-3. Make sure to test before push to the repo
-4. Write all reuseable components in the `components` folder
-5. Write all main/major screens/pages in the `pages` folder
-6. Make sure to run `yarn lint:fix` and `yarn format` to ensure code standard comformity
-7. Push and create a PR into the `develop` branch -->
+```
+docker build -t techtime:v1 .
+```
+
+5. Confirm the app is dockized by viewing/listing all images- newly created containers should be at the top
+
+```
+docker image ls
+```
+
+6. Publish Run the dockerized app
+
+```
+docker run --publish 3000:3000 tecthtime:v1
+```
