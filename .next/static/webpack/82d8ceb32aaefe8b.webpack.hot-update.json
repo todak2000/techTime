@@ -1,9 +1,0 @@
-{
-  "c": ["pages/index", "webpack"],
-  "r": ["pages/404"],
-  "m": [
-    "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?absolutePagePath=%2FUsers%2Ftodak%2FDesktop%2Ftalentplus%2FtechTime%2Fsrc%2Fpages%2F404.tsx&page=%2F404!",
-    "./node_modules/react-icons/ri/index.esm.js",
-    "./src/pages/404.tsx"
-  ]
-}
