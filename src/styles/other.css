@@ -1,5 +1,5 @@
 .bg-desktop {
-  background-image: url("/images/bg_desktop.svg");
+  background-image: url("/images/bg_desktop.png");
   background-color: #004db3;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7,7 +7,7 @@
 }
 
 .bg-community {
-  background-image: url("/images/bg_community.svg");
+  background-image: url("/images/bg_community.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
@@ -38,7 +38,7 @@
 }
 @media only screen and (max-width: 821px) {
   .bg-desktop {
-    background-image: url("/images/bg_mobile.svg");
+    background-image: url("/images/bg_mobile.png");
     background-color: #004db3;
     background-size: contain;
     background-repeat: no-repeat;

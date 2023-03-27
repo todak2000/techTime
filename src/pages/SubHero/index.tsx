@@ -55,7 +55,7 @@ const SubHero = () => {
         </div>
         <div className="mt-8 w-full md:mt-0 md:w-[50%]">
           <Image
-            src="/images/subHero_img.svg"
+            src="/images/subHero_img.png"
             priority
             height={600}
             width={800}

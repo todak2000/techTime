@@ -77,7 +77,7 @@ const Card = ({
         />
         {author}
       </span>
-      <p className="font-secondary inline-flex items-center text-[8px] font-semibold leading-[25px] text-brand_primary_color md:text-[20px]">
+      <p className="inline-flex items-center font-secondary text-[8px] font-semibold leading-[25px] text-brand_primary_color md:text-[20px]">
         {" "}
         {currencyFormat(price)}
       </p>

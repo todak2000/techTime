@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://tsnext-tw.thcl.dev
+Host: https://techtime-226q.onrender.com
 
 # Sitemaps
-Sitemap: https://tsnext-tw.thcl.dev/sitemap.xml
+Sitemap: https://techtime-226q.onrender.com/sitemap.xml

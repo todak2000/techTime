@@ -51,7 +51,7 @@ function Hero() {
             );
           })}
           <div className="ml-2">
-            <p className="font-secondary text-right text-[16px] font-bold leading-[20px] text-white md:text-left md:text-[24px] md:leading-[30px]">
+            <p className="text-right font-secondary text-[16px] font-bold leading-[20px] text-white md:text-left md:text-[24px] md:leading-[30px]">
               {previewValue}k+
             </p>
             <p className="normal-text mt-[-0.4rem] w-[70%] text-right text-[8px] leading-[15px] text-[#E7E7E7] md:w-[85%] md:text-left md:text-[16px] md:leading-[26px]">
