@@ -20,7 +20,7 @@ function Footer() {
           priority
           height={30}
           width={60}
-          className="mb-2"
+          className="mb-2 w-[100px]"
           alt="TechTime logo"
         />
         <p className="normal-text w-[80%] text-white">{footertext}</p>
