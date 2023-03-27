@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         primary: "Satoshi",
-        secondary: "Clash Display"
+        secondary: "Clash Display",
       },
       screens: {
         md: "821px",

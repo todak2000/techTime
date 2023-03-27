@@ -5,6 +5,12 @@ with the ever growing tech industry, more Nigerians will be looking to get into 
 
 The goal of the landing page is to promote the various courses to be offered by techtime also give users and potential students detailed information about the school.
 
+### URL
+
+https://techtime-226q.onrender.com
+
+<img width="719" alt="Screen Shot 2023-03-27 at 1 22 35 PM" src="https://user-images.githubusercontent.com/26861798/227940333-cf478d15-ba6d-4387-9f16-d33022904b59.png">
+
 ### Libraries
 
 - [NextJS](https://nextjs.org/)
@@ -59,5 +65,5 @@ docker image ls
 6. Publish Run the dockerized app
 
 ```
-docker run --publish 3000:3000 tecthtime:v1
+docker run --publish 3000:3000 techtime:v1
 ```
