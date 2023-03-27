@@ -37,7 +37,7 @@ https://techtime-226q.onrender.com
 git clone https://github.com/todak2000/techTime.git
 ```
 
-2. Intall dependencies and associated libraries
+2. Install dependencies and associated libraries
 
 ```
 cd techTime
@@ -50,7 +50,7 @@ yarn install
 yarn dev
 ```
 
-4. Dockerise the App
+4. Dockerise the App - Make sure you have DOcker running before proceeding
 
 ```
 docker build -t techtime:v1 .
